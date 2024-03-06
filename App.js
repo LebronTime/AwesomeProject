@@ -16,15 +16,16 @@ import { StyleSheet, View } from 'react-native';
 // import Ex12 from './screens/week2/Ex12';
 // import Extra from './screens/week2/Extra';
 // import Greeting from './components/Greeting';
-import Travel from './screens/week3/Travel';
-import Card from './components/week3/Card';
-import Hotel from './components/week3/Hotel';
-import MyIcon from './components/week3/MyIcon';
-import Signup from './components/week3/Signup';
-import Menu from './components/week3/Menu';
-import { PaperProvider } from 'react-native-paper';
-import TestPaper from './screens/week4/TestPaper';
-import Resort from './screens/week3/Resort';
+// import Travel from './screens/week3/Travel';
+// import Card from './components/week3/Card';
+// import Hotel from './components/week3/Hotel';
+// import MyIcon from './components/week3/MyIcon';
+// import Signup from './components/week3/Signup';
+// import Menu from './components/week3/Menu';
+// import { PaperProvider } from 'react-native-paper';
+// import TestPaper from './screens/week4/TestPaper';
+// import Resort from './screens/week3/Resort';
+import Health from './screens/week5/Health';
 
 export default function App() {
   return (
@@ -60,15 +61,19 @@ export default function App() {
     //   <TestPaper />
     // </PaperProvider>
 
-    <Resort />
+
+    
+    // <Resort />
+
+    <Health />
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: '#fff',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   },
+// });
