@@ -1,6 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import HomeStack from './navigation/HomeStack';
+import BottomTab from './navigation/BottomTab';
+import RootStack from './navigation/RootStack';
+
 
 // import Welcome from './screens/Welcome';
 // import Ex01 from './screens/week2/Ex01';
@@ -29,7 +34,10 @@ import { StyleSheet, View } from 'react-native';
 
 // import Health from './screens/week5/Health';
 
-import Home from './screens/week6/Home';
+// import Home from './screens/week6/Home';
+
+
+
 
 export default function App() {
   return (
@@ -71,7 +79,13 @@ export default function App() {
 
     // <Health />
 
-    <Home />
+    // <Home />
+
+    <NavigationContainer>
+      {/* <HomeStack /> */}
+      {/* <BottomTab /> */}
+      <RootStack />
+    </NavigationContainer>
   );
 }
 
@@ -83,3 +97,5 @@ export default function App() {
 //     justifyContent: 'center',
 //   },
 // });
+
+

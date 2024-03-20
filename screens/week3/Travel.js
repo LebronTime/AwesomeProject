@@ -6,9 +6,13 @@ import Hotel from '../../components/week3/Hotel';
 import MyIcon from '../../components/week3/MyIcon';
 import Menu from '../../components/week3/Menu';
 
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+const Tab = createBottomTabNavigator();
+
 
 export default function Travel() {
     return (
+   
         <ScrollView>
             <View style={{ flex: 1, paddingTop : 50  }}>
                 {/* <Text>Text of Week 3 </Text> */}
@@ -19,5 +23,6 @@ export default function Travel() {
                 <Menu />
             </View>
         </ScrollView>
+
     );
 }

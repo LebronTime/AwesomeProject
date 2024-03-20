@@ -26,11 +26,10 @@ export default function TourFlatList(props) {
     useEffect(() => {
         loadOnlineTours();
     }, []);
-        
-
+    
     return (
         <View style={props.style}>
-            <Text style={{fontSize:30, fontStyle:'bold'}}>Tour with FlatList</Text>
+            <Text style={{fontSize:30, fontWeight:'bold'}}>Tour with FlatList</Text>
             <Text>Let find out what most interesting things</Text>
             <FlatList
                 horizontal={true}
