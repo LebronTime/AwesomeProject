@@ -14,6 +14,8 @@ import Ex11 from '../screens/week2/Ex11';
 import Home from '../screens/week6/Home';
 import Ex12 from '../screens/week2/Ex12';
 import Travel from '../screens/week3/Travel';
+import Resort from '../screens/week3/Resort';
+import Health from '../screens/week5/Health';
 
 
 const Stack = createStackNavigator();
@@ -89,7 +91,17 @@ export default function HomeStack() {
         <Stack.Screen
           name="Travel"
           component={Travel}
+          options={{ title: "Travel", headerShown: 'false' }}
+        />
+        <Stack.Screen
+          name="Resort"
+          component={Resort}
           options={{ title: "Resort", headerShown: 'false' }}
+        />
+        <Stack.Screen
+          name="Health"
+          component={Health}
+          options={{ title: "Health", headerShown: 'false' }}
         />
       </Stack.Navigator>
     );

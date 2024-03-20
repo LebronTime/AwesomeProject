@@ -16,8 +16,8 @@ export default function HomeIconMenu() {
       <View style={{ flexDirection : "row", marginTop : 10 , justifyContent : "space-around" }}>
         <MyIcon title="Flex" name="th" size={30} color="orange" onPress={()=>{ navigation.navigate("Ex01"); }} />
         <MyIcon title="travel" name="plane" size={30} color="orange" onPress={()=>{ navigation.navigate("Travel"); }}/>
-        <MyIcon title="xxx" name="question" size={30} color="orange" />
-        <MyIcon title="xxx" name="question" size={30} color="orange" />
+        <MyIcon title="Resort" name="bed" size={30} color="orange" onPress={()=>{ navigation.navigate("Resort"); }}/>
+        <MyIcon title="Health" name="heart" size={30} color="orange" onPress={()=>{ navigation.navigate("Health"); }} />
         
       </View>
       {/* View ก้อนที่ 3 */}
